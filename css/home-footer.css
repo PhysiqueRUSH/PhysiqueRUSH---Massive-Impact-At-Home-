@@ -1,0 +1,21 @@
+#app:has(.menu-grid)::after{
+  content:"PhysiqueRUSH® - v " attr(data-version);
+  display:block;
+  width:100%;
+  box-sizing:border-box;
+  margin-top:-10px;
+  padding:0 0 max(7px,env(safe-area-inset-bottom));
+  text-align:center;
+  color:#474c54;
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  font-size:6px;
+  font-weight:700;
+  letter-spacing:.08em;
+  line-height:1;
+  user-select:none;
+  pointer-events:none;
+}
+
+@media(max-width:420px){
+  #app:has(.menu-grid)::after{font-size:5.5px}
+}
