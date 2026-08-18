@@ -1,4 +1,4 @@
-const CACHE='physiquerush-mi-v9-home-athlete-v24';
+const CACHE='physiquerush-mi-v10-home-athlete-v24-final';
 const APP_SHELL=[
   './','./index.html','./css/app.css','./css/impact-theme.css','./css/home-v23.css','./css/home-v24.css','./css/home-footer.css','./manifest.webmanifest',
   './js/app.js','./js/config.js','./js/state.js','./js/scoring.js','./js/sessionStore.js',
