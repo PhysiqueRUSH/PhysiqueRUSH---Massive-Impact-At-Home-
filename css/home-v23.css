@@ -1,0 +1,270 @@
+/* PhysiqueRUSH v2.3 — accueil premium, maquette sombre/rouge */
+
+/* Le footer de version n'apparaît que sur l'accueil (header sans bouton retour). */
+#app-version{
+  display:none;
+  width:min(100%,720px);
+  margin:-18px auto 0;
+  padding:0 14px max(8px,env(safe-area-inset-bottom));
+  text-align:center;
+  color:#3e4248;
+  font-size:6px;
+  line-height:1;
+  letter-spacing:.11em;
+  text-transform:none;
+  user-select:none;
+}
+body:has(.logo-mini) #app-version{display:block}
+
+/* Header accueil : le symbole officiel devient la signature visuelle. */
+.logo-mini{
+  position:relative;
+  min-height:48px;
+  padding-left:54px;
+  justify-content:center;
+}
+.logo-mini::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:50%;
+  width:45px;
+  height:45px;
+  transform:translateY(-50%);
+  background:url('../assets/brand/physiquerush-symbol-master.png') center/contain no-repeat;
+  filter:drop-shadow(0 4px 10px rgba(255,24,36,.18));
+}
+.logo-mini b{
+  font-family:"Arial Narrow","Roboto Condensed","Helvetica Neue",Arial,sans-serif;
+  font-size:24px;
+  font-style:italic;
+  font-weight:1000;
+  letter-spacing:-.055em;
+  transform:skewX(-4deg);
+}
+.logo-mini small{
+  font-size:8px;
+  letter-spacing:.36em;
+  margin-top:5px;
+  color:#b5b8bd;
+}
+
+/* Accueil uniquement. */
+.shell:has(.logo-mini){
+  padding-top:8px;
+}
+.shell:has(.logo-mini) .app-header{
+  margin-bottom:9px;
+  border-bottom:0;
+}
+.shell:has(.logo-mini) .app-header::after{
+  content:"";
+  position:absolute;
+  left:12px;
+  right:12px;
+  bottom:0;
+  height:1px;
+  background:linear-gradient(90deg,transparent,#5e1116 18%,#de1721 50%,#5e1116 82%,transparent);
+  opacity:.7;
+}
+
+/* Bloc parcours : plus compact, plus "dashboard combat". */
+.shell:has(.logo-mini) .hero-panel{
+  min-height:176px;
+  grid-template-columns:1.16fr .84fr;
+  padding:18px 15px 16px 17px;
+  background:
+    radial-gradient(circle at 86% 32%,rgba(231,25,36,.19),transparent 28%),
+    linear-gradient(145deg,#12151a 0%,#090b0e 72%);
+  overflow:hidden;
+}
+.shell:has(.logo-mini) .hero-panel::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:
+    linear-gradient(112deg,transparent 0 68%,rgba(255,255,255,.025) 68.2% 68.7%,transparent 69%),
+    radial-gradient(circle at 91% 60%,rgba(255,29,40,.12),transparent 31%);
+}
+.shell:has(.logo-mini) .hero-copy{
+  align-self:center;
+}
+.shell:has(.logo-mini) .hero-copy .eyebrow{
+  font-size:8px;
+  letter-spacing:.2em;
+}
+.shell:has(.logo-mini) .hero-day{
+  margin:6px 0 14px;
+  color:#f0f1f2;
+  font-size:25px;
+  font-style:italic;
+  transform:skewX(-2deg);
+}
+.shell:has(.logo-mini) .hero-day b{
+  font-size:43px;
+  color:#f01b25;
+}
+.shell:has(.logo-mini) .hero-copy>small{
+  font-size:8px;
+  letter-spacing:.1em;
+  color:#90959c;
+}
+
+/* En attendant le PNG athlète final : watermark du logo officiel, sans emoji. */
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder{
+  height:150px;
+  min-height:150px;
+  border:0;
+  overflow:visible;
+  background:transparent;
+}
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder span,
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder small{display:none}
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:url('../assets/brand/physiquerush-symbol-master.png') center/90% auto no-repeat;
+  opacity:.82;
+  filter:drop-shadow(0 18px 30px #000) drop-shadow(0 0 16px rgba(255,25,38,.12));
+  transform:rotate(-3deg) scale(1.03);
+}
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder::after{
+  content:"";
+  position:absolute;
+  left:-15%;right:-20%;bottom:-25%;height:55%;
+  background:radial-gradient(ellipse,rgba(227,24,35,.28),transparent 68%);
+}
+
+/* Carte du jour = élément dominant. */
+.shell:has(.logo-mini) .today-card{
+  margin-top:11px;
+  grid-template-columns:1fr 94px;
+  gap:11px;
+  padding:16px 14px 14px 17px;
+  min-height:190px;
+  border-color:#393d44;
+  background:
+    radial-gradient(circle at 88% 22%,rgba(231,25,36,.15),transparent 28%),
+    linear-gradient(150deg,#13161a,#090b0e 72%);
+}
+.shell:has(.logo-mini) .today-card::after{
+  content:"";
+  position:absolute;
+  top:0;right:0;width:42%;height:2px;
+  background:linear-gradient(90deg,transparent,#f01c26);
+}
+.shell:has(.logo-mini) .today-card h2{
+  margin:5px 0 8px;
+  max-width:290px;
+  font-size:34px;
+  line-height:.92;
+  font-style:italic;
+  letter-spacing:-.045em;
+}
+.shell:has(.logo-mini) .today-card>div>small{
+  font-size:8px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.shell:has(.logo-mini) .today-art .visual-placeholder{
+  height:106px;
+  min-height:106px;
+  margin-top:2px;
+  border:0;
+  background:radial-gradient(circle at 50% 50%,rgba(191,16,24,.22),transparent 64%);
+}
+.shell:has(.logo-mini) .today-art .visual-placeholder span{
+  font-size:46px;
+  filter:grayscale(1) contrast(1.2) drop-shadow(0 8px 18px #000);
+}
+.shell:has(.logo-mini) .today-card .btn{
+  min-height:53px;
+  border-radius:7px;
+  font-size:14px;
+  margin-top:1px;
+  position:relative;
+}
+.shell:has(.logo-mini) .today-card .btn::after{
+  content:"›";
+  position:absolute;
+  right:17px;
+  top:50%;
+  transform:translateY(-53%);
+  font-size:26px;
+  font-weight:400;
+}
+
+/* Les quatre accès majeurs ressemblent désormais aux cartes de la maquette. */
+.shell:has(.logo-mini) .menu-grid{
+  margin-top:10px;
+  gap:8px;
+}
+.shell:has(.logo-mini) .menu-tile{
+  min-height:151px;
+  padding:9px 10px 11px;
+  border-radius:8px;
+  border-color:#34383f;
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.02),transparent 25%),
+    linear-gradient(145deg,#111419,#080a0d 76%);
+}
+.shell:has(.logo-mini) .menu-tile .visual-placeholder{
+  height:78px;
+  min-height:78px;
+  margin-bottom:8px;
+  border-radius:5px;
+  border:0;
+  background:
+    radial-gradient(circle at 50% 46%,rgba(194,16,25,.2),transparent 51%),
+    linear-gradient(145deg,#12151a,#090a0d);
+}
+.shell:has(.logo-mini) .menu-tile .visual-placeholder::before{
+  background:
+    linear-gradient(135deg,rgba(231,25,36,.14),transparent 24%),
+    linear-gradient(315deg,rgba(231,25,36,.07),transparent 25%);
+}
+.shell:has(.logo-mini) .menu-tile .visual-placeholder span{
+  font-size:36px;
+  filter:grayscale(1) contrast(1.35) brightness(.9) drop-shadow(0 7px 15px #000);
+}
+.shell:has(.logo-mini) .menu-tile b{
+  position:relative;
+  padding-left:8px;
+  font-size:12px;
+  line-height:1.05;
+  font-style:italic;
+}
+.shell:has(.logo-mini) .menu-tile b::before{
+  content:"";
+  position:absolute;
+  left:0;top:1px;bottom:1px;width:2px;
+  background:#ed1a24;
+}
+.shell:has(.logo-mini) .menu-tile small{
+  margin-top:5px;
+  padding-left:8px;
+  font-size:8px;
+  color:#737a83;
+}
+
+/* La tuile performances reçoit un accent visuel supplémentaire. */
+.shell:has(.logo-mini) .menu-tile[data-page="performances"]{
+  border-color:#493034;
+}
+.shell:has(.logo-mini) .menu-tile[data-page="performances"]::after{
+  height:3px;
+  background:linear-gradient(90deg,#6d080e,#ef1923 60%,transparent);
+}
+
+@media(max-width:390px){
+  .logo-mini{padding-left:48px}
+  .logo-mini::before{width:40px;height:40px}
+  .logo-mini b{font-size:21px}
+  .shell:has(.logo-mini) .hero-panel{min-height:166px;padding-left:14px}
+  .shell:has(.logo-mini) .hero-day{font-size:23px}
+  .shell:has(.logo-mini) .hero-day b{font-size:39px}
+  .shell:has(.logo-mini) .today-card h2{font-size:30px}
+  .shell:has(.logo-mini) .menu-tile{min-height:143px}
+}
