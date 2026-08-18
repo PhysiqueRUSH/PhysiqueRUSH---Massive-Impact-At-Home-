@@ -1,0 +1,68 @@
+/* PhysiqueRUSH v2.4 — personnage officiel sur l'accueil */
+
+/* Remplace le watermark de la v2.3 par le personnage PNG validé. */
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder{
+  height:160px;
+  min-height:160px;
+  overflow:visible;
+  isolation:isolate;
+}
+
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder::before{
+  content:"";
+  position:absolute;
+  z-index:2;
+  inset:-13px -18px -18px -22px;
+  background:url('../assets/characters/home-athlete-v24.png') center 30% / auto 205% no-repeat;
+  opacity:1;
+  filter:drop-shadow(0 14px 24px rgba(0,0,0,.85)) drop-shadow(0 0 16px rgba(236,22,33,.18));
+  transform:none;
+  pointer-events:none;
+}
+
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder::after{
+  content:"";
+  position:absolute;
+  z-index:1;
+  left:-30%;
+  right:-35%;
+  bottom:-24%;
+  height:72%;
+  background:radial-gradient(ellipse,rgba(229,20,31,.34),rgba(96,6,11,.13) 38%,transparent 70%);
+  filter:blur(1px);
+  pointer-events:none;
+}
+
+/* Le personnage passe légèrement derrière le contenu sans gêner la lecture. */
+.shell:has(.logo-mini) .hero-copy{
+  position:relative;
+  z-index:4;
+}
+
+.shell:has(.logo-mini) .hero-panel{
+  background:
+    radial-gradient(circle at 84% 42%,rgba(194,10,20,.28),transparent 30%),
+    radial-gradient(circle at 76% 84%,rgba(232,20,32,.11),transparent 28%),
+    linear-gradient(145deg,#12151a 0%,#090b0e 72%);
+}
+
+/* Renforce le contraste de la progression devant le visuel. */
+.shell:has(.logo-mini) .hero-copy .progress{
+  box-shadow:inset 0 2px 8px rgba(0,0,0,.82),0 0 0 1px rgba(0,0,0,.22);
+}
+
+@media(max-width:390px){
+  .shell:has(.logo-mini) .hero-panel>.visual-placeholder::before{
+    inset:-9px -16px -16px -17px;
+    background-position:center 29%;
+    background-size:auto 198%;
+  }
+}
+
+@media(min-width:700px){
+  .shell:has(.logo-mini) .hero-panel>.visual-placeholder::before{
+    inset:-18px -34px -24px -28px;
+    background-position:center 30%;
+    background-size:auto 220%;
+  }
+}
