@@ -1,0 +1,81 @@
+id;nom;usage;fichier_cible;statut
+brand_logo;Logo PhysiqueRUSH – Massive Impact;Header / splash;assets/visuals/brand_logo.webp;à fournir
+athlete_main;Athlète capuché principal;Home / décor;assets/visuals/athlete_main.webp;à fournir
+tile_camp;Camp d'entraînement;Tuile Home;assets/visuals/tile_camp.webp;à fournir
+tile_level;Mon niveau;Tuile Home;assets/visuals/tile_level.webp;à fournir
+tile_performance;Mes performances;Tuile Home;assets/visuals/tile_performance.webp;à fournir
+tile_community;Entraide 7j/7;Tuile Home;assets/visuals/tile_community.webp;à fournir
+settings;Réglages;Navigation;assets/visuals/settings.webp;à fournir
+day_legs_core;LEGS + CORE;Carte séance;assets/visuals/day_legs_core.webp;à fournir
+day_push_cardio;PUSH + CARDIO;Carte séance;assets/visuals/day_push_cardio.webp;à fournir
+day_pull_core;PULL + CORE;Carte séance;assets/visuals/day_pull_core.webp;à fournir
+day_arms_cardio;ARMS + CARDIO;Carte séance;assets/visuals/day_arms_cardio.webp;à fournir
+day_quad_ham_core;QUADRICEPS + ISCHIOS + CORE;Carte séance;assets/visuals/day_quad_ham_core.webp;à fournir
+day_push_pull;PUSH + PULL;Carte séance;assets/visuals/day_push_pull.webp;à fournir
+day_test;TEST DE NIVEAU;Carte séance / camp;assets/visuals/day_test.webp;à fournir
+day_challenge;CHALLENGE DAY;Carte séance / camp;assets/visuals/day_challenge.webp;à fournir
+day_onboarding;JOUR 1;Carte séance / camp;assets/visuals/day_onboarding.webp;à fournir
+camp_start;Démarrage J1–J6;Bannière Camp;assets/visuals/camp_start.webp;à fournir
+camp_phase1;Phase I;Bannière Camp;assets/visuals/camp_phase1.webp;à fournir
+camp_phase2;Phase II;Bannière Camp;assets/visuals/camp_phase2.webp;à fournir
+camp_midtests;Tests intermédiaires;Bannière Camp;assets/visuals/camp_midtests.webp;à fournir
+camp_phase3;Phase III;Bannière Camp;assets/visuals/camp_phase3.webp;à fournir
+camp_phase4;Phase IV;Bannière Camp;assets/visuals/camp_phase4.webp;à fournir
+camp_final;Bilan final;Bannière Camp;assets/visuals/camp_final.webp;à fournir
+camp_lock;Jour verrouillé;État Camp;assets/visuals/camp_lock.webp;à fournir
+camp_done;Jour validé;État Camp;assets/visuals/camp_done.webp;à fournir
+camp_current;Jour actuel;État Camp;assets/visuals/camp_current.webp;à fournir
+camp_replay;Recommencer séance;État Camp;assets/visuals/camp_replay.webp;à fournir
+capacity_legs;LEGS;Radar / niveau;assets/visuals/capacity_legs.webp;à fournir
+capacity_push;PUSH;Radar / niveau;assets/visuals/capacity_push.webp;à fournir
+capacity_pull;PULL;Radar / niveau;assets/visuals/capacity_pull.webp;à fournir
+capacity_core;CORE;Radar / niveau;assets/visuals/capacity_core.webp;à fournir
+capacity_cardio;CARDIO;Radar / niveau;assets/visuals/capacity_cardio.webp;à fournir
+retest;Tests de niveau / recalibrage;Mon niveau;assets/visuals/retest.webp;à fournir
+effective_reps;Répétitions efficaces;Performances / fin séance;assets/visuals/effective_reps.webp;à fournir
+rush_coin;pts RUSH;Performances / gamification;assets/visuals/rush_coin.webp;à fournir
+perf_regularity;Régularité;Performances;assets/visuals/perf_regularity.webp;à fournir
+perf_progression;Progression;Performances;assets/visuals/perf_progression.webp;à fournir
+perf_work;Travail accompli;Performances;assets/visuals/perf_work.webp;à fournir
+perf_flow;Flow;Performances;assets/visuals/perf_flow.webp;à fournir
+perf_challenges;Challenges;Performances;assets/visuals/perf_challenges.webp;à fournir
+perf_records;Records;Performances;assets/visuals/perf_records.webp;à fournir
+reward_burst;Explosion comics;Fin séance;assets/visuals/reward_burst.webp;à fournir
+reward_shockwave;Onde de choc;Fin séance;assets/visuals/reward_shockwave.webp;à fournir
+reward_session;Séance accomplie;Fin séance;assets/visuals/reward_session.webp;à fournir
+reward_trophy;Trophée / récompense;Gamification;assets/visuals/reward_trophy.webp;à fournir
+reward_record;Nouveau record;Gamification;assets/visuals/reward_record.webp;à fournir
+reward_level;Niveau conquis;Gamification;assets/visuals/reward_level.webp;à fournir
+reward_streak;RUSH STREAK;Gamification;assets/visuals/reward_streak.webp;à fournir
+challenge_burn_rush;Burn & Rush;Challenge;assets/visuals/challenge_burn_rush.webp;à fournir
+challenge_levels;Levels;Challenge;assets/visuals/challenge_levels.webp;à fournir
+challenge_ascension;Ascension;Challenge;assets/visuals/challenge_ascension.webp;à fournir
+boss_burn_rush;Boss Burn & Rush;Challenge;assets/visuals/boss_burn_rush.webp;à fournir
+boss_levels;Boss Levels;Challenge;assets/visuals/boss_levels.webp;à fournir
+boss_ascension;Boss Ascension;Challenge;assets/visuals/boss_ascension.webp;à fournir
+boss_down;BOSS DOWN;Challenge résultat;assets/visuals/boss_down.webp;à fournir
+onboard_1;Miniature accueil;J1 Vimeo;assets/visuals/onboard_1.webp;à fournir
+onboard_2;Miniature structure 100 jours;J1 Vimeo;assets/visuals/onboard_2.webp;à fournir
+onboard_3;Miniature app + entraide;J1 Vimeo;assets/visuals/onboard_3.webp;à fournir
+onboard_4;Miniature échauffement;J1 Vimeo;assets/visuals/onboard_4.webp;à fournir
+badge_reg7;Badge 7 jours;Badges;assets/visuals/badges/badge_reg7.webp;à fournir
+badge_reg21;Badge 21 jours;Badges;assets/visuals/badges/badge_reg21.webp;à fournir
+badge_reg50;Badge 50 jours;Badges;assets/visuals/badges/badge_reg50.webp;à fournir
+badge_reg75;Badge 75 jours;Badges;assets/visuals/badges/badge_reg75.webp;à fournir
+badge_reg100;Badge 100 jours;Badges;assets/visuals/badges/badge_reg100.webp;à fournir
+badge_prog1;Badge +1 palier;Badges;assets/visuals/badges/badge_prog1.webp;à fournir
+badge_prog3;Badge +3 paliers;Badges;assets/visuals/badges/badge_prog3.webp;à fournir
+badge_prog5;Badge +5 paliers;Badges;assets/visuals/badges/badge_prog5.webp;à fournir
+badge_prog10;Badge +10 paliers;Badges;assets/visuals/badges/badge_prog10.webp;à fournir
+badge_eff500;Badge 500 répétitions efficaces;Badges;assets/visuals/badges/badge_eff500.webp;à fournir
+badge_eff1500;Badge 1500 répétitions efficaces;Badges;assets/visuals/badges/badge_eff1500.webp;à fournir
+badge_eff3000;Badge 3000 répétitions efficaces;Badges;assets/visuals/badges/badge_eff3000.webp;à fournir
+badge_eff5000;Badge 5000 répétitions efficaces;Badges;assets/visuals/badges/badge_eff5000.webp;à fournir
+badge_boss1;Badge 1 Boss;Badges;assets/visuals/badges/badge_boss1.webp;à fournir
+badge_boss3;Badge 3 Boss;Badges;assets/visuals/badges/badge_boss3.webp;à fournir
+badge_boss6;Badge 6 Boss;Badges;assets/visuals/badges/badge_boss6.webp;à fournir
+badge_boss12;Badge 12 Boss;Badges;assets/visuals/badges/badge_boss12.webp;à fournir
+badge_day25;Badge 25%;Badges;assets/visuals/badges/badge_day25.webp;à fournir
+badge_day50;Badge 50%;Badges;assets/visuals/badges/badge_day50.webp;à fournir
+badge_day75;Badge 75%;Badges;assets/visuals/badges/badge_day75.webp;à fournir
+badge_day100;Badge Massive Impact 100;Badges;assets/visuals/badges/badge_day100.webp;à fournir

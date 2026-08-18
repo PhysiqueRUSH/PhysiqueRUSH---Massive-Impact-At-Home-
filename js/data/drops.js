@@ -1,0 +1,76 @@
+const A=(exerciseId,label=null)=>({exerciseId,label});
+const assist=p=>A('dips_assisted',`Dips penchés assistés ${p} %`);
+
+export const DROP_TABLES = {
+  J75_A1:{
+    1:[A('kb_squat_heels'),A('air_squat_heels')],2:[A('kb_squat_heels'),A('air_squat_heels')],3:[A('kb_squat_heels'),A('air_squat_heels')],4:[A('kb_squat_heels'),A('air_squat_heels')],
+    5:[A('bulgarian_kb'),A('bulgarian_bw')],6:[A('bulgarian_kb'),A('bulgarian_bw')],7:[A('bulgarian_kb'),A('bulgarian_bw')],8:[A('levitation_bw'),A('bulgarian_kb')],9:[A('levitation_kb'),A('levitation_bw')],10:[A('levitation_kb'),A('pistol_bw')]
+  },
+  J75_A2:{
+    1:[A('kb_rdl'),A('kb_deadlift')],2:[A('kb_rdl'),A('kb_deadlift')],3:[A('kb_rdl'),A('kb_deadlift')],4:[A('kb_rdl'),A('kb_deadlift')],
+    5:[A('kb_rdl_bstance'),A('kb_rdl')],6:[A('kb_rdl_bstance'),A('kb_rdl')],7:[A('kb_rdl_single'),A('kb_rdl_bstance')],8:[A('kb_rdl_single'),A('kb_rdl_bstance')],9:[A('kb_rdl_single'),A('kb_rdl_bstance')],10:[A('kb_rdl_single'),A('kb_rdl_bstance')]
+  },
+  J82_A3:{
+    1:[A('reverse_lunge'),A('wall_sit')],2:[A('jump_lunge_center'),A('reverse_lunge')],3:[A('jump_lunge_center'),A('reverse_lunge')],4:[A('jump_lunge_direct'),A('reverse_lunge')],5:[A('jump_lunge_direct'),A('jump_lunge_center')],6:[A('reverse_lunge_kb'),A('jump_lunge_center')],7:[A('reverse_lunge_kb'),A('jump_lunge_direct')],8:[A('jump_lunge_center_kb'),A('jump_lunge_direct')],9:[A('jump_lunge_direct_kb'),A('reverse_lunge_kb')],10:[A('jump_lunge_direct_kb'),A('jump_lunge_center_kb')]
+  },
+  J76_D10:{
+    1:[A('knee_hand_release'),A('knee_push_partial')],2:[A('knee_hand_release'),A('knee_push_partial')],3:[A('knee_hand_release'),A('knee_push_partial')],4:[A('knee_diamond_kb'),A('knee_push_partial')],5:[A('pushup'),A('knee_hand_release')],6:[A('offset_pushup'),A('knee_diamond_kb')],7:[A('diamond_pushup_kb'),A('knee_diamond_kb')],8:[A('diamond_pushup_kb'),A('pushup')],9:[A('diamond_pushup_kb'),A('offset_pushup')],10:[A('one_arm_pushup_kb'),A('archer_pushup_kb')]
+  },
+  J76_D11:{
+    1:[A('pushup_2chairs'),A('pushup_table')],2:[A('pushup_2chairs'),A('pushup_table')],3:[A('pushup_2chairs'),A('pushup_table')],4:[A('pushup_2chairs'),A('pushup_table')],5:[A('pushup_2chairs'),A('pushup_table')],6:[A('pushup_3chairs'),A('pushup_table')],7:[A('pushup_3chairs'),A('pushup_2chairs')],8:[A('decline_pushup'),A('pushup_2chairs')],9:[A('decline_diamond_kb'),A('pushup_3chairs')],10:[A('decline_diamond_kb'),A('decline_pushup')]
+  },
+  J83_D12:{
+    1:[A('floor_press'),A('floor_press_bridge')],2:[A('floor_press'),A('floor_press_bridge')],3:[A('floor_press'),A('floor_press_bridge')],4:[A('incline_press_chair'),A('floor_press_bridge')],5:[A('incline_press_chair'),A('floor_press')],6:[A('semi_uni_floor_press'),A('floor_press')],7:[A('uni_floor_press'),A('incline_press_chair')],8:[A('uni_floor_press'),A('semi_uni_floor_press')],9:[A('uni_fly_press'),A('semi_uni_floor_press')],10:[A('uni_fly_press'),A('uni_floor_press')]
+  },
+  J77_PULL:{
+    1:[A('row_bi_towel'),A('superman_row')],2:[A('row_bi_towel'),A('superman_row')],3:[A('row_bi_o'),A('superman_row')],4:[A('row_bi_o'),A('row_bi_towel')],5:[A('row_uni_close'),A('row_bi_towel')],6:[A('row_uni_open'),A('row_bi_o')],7:[A('row_uni_open'),A('row_uni_close')],8:[A('reverse_fly_uni'),A('row_uni_close')],9:[A('face_pull_towel'),A('row_uni_close')],10:[A('skier_pull_uni'),A('row_uni_close')]
+  },
+  J78_BI:{
+    1:[A('drag_curl_kb'),A('drag_curl_floor')],2:[A('drag_curl_kb'),A('drag_curl_floor')],3:[A('drag_curl_kb'),A('drag_curl_floor')],4:[A('drag_curl_kb'),A('drag_curl_floor')],5:[A('curl_bi_towel'),A('drag_curl_floor')],6:[A('curl_bi_towel'),A('drag_curl_kb')],7:[A('curl_row_uni'),A('drag_curl_kb')],8:[A('hammer_curl_momentum'),A('curl_bi_towel')],9:[A('strict_curl_uni'),A('curl_bi_towel')],10:[A('strict_curl_uni'),A('curl_row_uni')]
+  },
+  J78_TRI:{
+    1:[A('close_grip_floor_press'),A('neck_crusher')],2:[A('close_grip_floor_press'),A('neck_crusher')],3:[A('close_grip_floor_press'),A('neck_crusher')],4:[A('close_grip_floor_press'),A('neck_crusher')],5:[A('incline_neck_extension'),A('neck_crusher')],6:[A('incline_neck_extension'),A('close_grip_floor_press')],7:[A('guillotine_press'),A('close_grip_floor_press')],8:[A('guillotine_press'),A('incline_neck_extension')],9:[A('skull_crusher'),A('incline_neck_extension')],10:[A('skull_crusher'),A('guillotine_press')]
+  },
+  J79_QUAD:{
+    1:[A('sissy_assisted'),A('wall_sit')],2:[A('sissy_assisted'),A('wall_sit')],3:[A('sissy_partial'),A('wall_sit')],4:[A('sissy_partial'),A('sissy_assisted')],5:[A('sissy_full'),A('wall_sit')],6:[A('sissy_full'),A('sissy_assisted')],7:[A('sissy_full'),A('sissy_assisted')],8:[A('sissy_full'),A('sissy_partial')],9:[A('sissy_kb'),A('sissy_partial')],10:[A('sissy_kb'),A('sissy_full')]
+  },
+  J79_HAM:{
+    1:[A('hip_bridge_chair_kb'),A('hip_bridge_chair')],2:[A('hip_bridge_chair_kb'),A('hip_bridge_chair')],3:[A('hip_bridge_chair_kb'),A('hip_bridge_chair')],4:[A('sliding_leg_curl'),A('hip_bridge_chair')],5:[A('sliding_leg_curl'),A('hip_bridge_chair_kb')],6:[A('sliding_leg_curl_kb'),A('hip_bridge_chair_kb')],7:[A('sliding_leg_curl_kb'),A('sliding_leg_curl')],8:[A('sliding_leg_curl_kb'),A('sliding_leg_curl')],9:[A('sliding_leg_curl_uni'),A('sliding_leg_curl')],10:[A('sliding_leg_curl_uni'),A('sliding_leg_curl_kb')]
+  },
+  J80_PUSH:{
+    1:[assist(70),A('knee_push_partial')],2:[assist(60),A('knee_hand_release')],3:[assist(50),A('knee_shoulder_taps')],4:[assist(40),A('knee_push_partial')],5:[assist(30),A('hand_release_pushup')],6:[assist(20),A('pushup_shoulder_taps')],7:[A('dips'),assist(70)],8:[A('dips'),assist(40)],9:[A('dips'),assist(20)],10:[A('dips'),A('explosive_pushup')]
+  }
+};
+
+export const TRIPLE_TABLES = {
+  J89_A1:{
+    1:[A('kb_squat_heels'),A('air_squat_heels'),A('wall_sit')],2:[A('kb_squat_heels'),A('air_squat_heels'),A('wall_sit')],3:[A('bulgarian_bw'),A('kb_squat_heels'),A('air_squat_heels')],4:[A('bulgarian_kb'),A('bulgarian_bw'),A('air_squat_heels')],5:[A('bulgarian_kb'),A('bulgarian_bw'),A('kb_squat_heels')],6:[A('levitation_bw'),A('bulgarian_bw'),A('air_squat_heels')],7:[A('levitation_bw'),A('bulgarian_kb'),A('bulgarian_bw')],8:[A('pistol_bw'),A('bulgarian_kb'),A('bulgarian_bw')],9:[A('levitation_kb'),A('levitation_bw'),A('bulgarian_kb')],10:[A('pistol_kb'),A('pistol_bw'),A('bulgarian_kb')]
+  },
+  J89_A3:{
+    1:[A('jump_lunge_center'),A('reverse_lunge'),A('wall_sit')],2:[A('jump_lunge_center'),A('reverse_lunge'),A('wall_sit')],3:[A('jump_lunge_direct'),A('jump_lunge_center'),A('reverse_lunge')],4:[A('jump_lunge_direct'),A('jump_lunge_center'),A('reverse_lunge')],5:[A('reverse_lunge_kb'),A('jump_lunge_direct'),A('jump_lunge_center')],6:[A('reverse_lunge_kb'),A('jump_lunge_direct'),A('jump_lunge_center')],7:[A('reverse_lunge_kb'),A('jump_lunge_direct'),A('jump_lunge_center')],8:[A('jump_lunge_center_kb'),A('reverse_lunge_kb'),A('jump_lunge_direct')],9:[A('jump_lunge_direct_kb'),A('jump_lunge_center_kb'),A('reverse_lunge_kb')],10:[A('jump_lunge_direct_kb'),A('jump_lunge_center_kb'),A('reverse_lunge_kb')]
+  },
+  J90_D10:{
+    1:[A('knee_diamond_kb'),A('knee_hand_release'),A('knee_push_partial')],2:[A('knee_diamond_kb'),A('knee_hand_release'),A('knee_push_partial')],3:[A('knee_diamond_kb'),A('knee_hand_release'),A('knee_push_partial')],4:[A('pushup'),A('knee_diamond_kb'),A('knee_push_partial')],5:[A('offset_pushup'),A('pushup'),A('knee_hand_release')],6:[A('diamond_pushup_kb'),A('offset_pushup'),A('knee_diamond_kb')],7:[A('diamond_pushup_kb'),A('offset_pushup'),A('knee_diamond_kb')],8:[A('archer_pushup_kb'),A('diamond_pushup_kb'),A('pushup')],9:[A('archer_pushup_kb'),A('diamond_pushup_kb'),A('offset_pushup')],10:[A('one_arm_pushup_kb'),A('archer_pushup_kb'),A('diamond_pushup_kb')]
+  },
+  J90_D12:{
+    1:[A('incline_press_chair'),A('floor_press'),A('floor_press_bridge')],2:[A('incline_press_chair'),A('floor_press'),A('floor_press_bridge')],3:[A('incline_press_chair'),A('floor_press'),A('floor_press_bridge')],4:[A('incline_press_chair'),A('floor_press'),A('floor_press_bridge')],5:[A('semi_uni_floor_press'),A('incline_press_chair'),A('floor_press')],6:[A('semi_uni_floor_press'),A('incline_press_chair'),A('floor_press')],7:[A('uni_floor_press'),A('incline_press_chair'),A('floor_press')],8:[A('uni_floor_press'),A('semi_uni_floor_press'),A('incline_press_chair')],9:[A('uni_fly_press'),A('semi_uni_floor_press'),A('incline_press_chair')],10:[A('uni_fly_press'),A('uni_floor_press'),A('semi_uni_floor_press')]
+  },
+  J91_PULL:{
+    1:[A('row_bi_o'),A('row_bi_towel'),A('superman_row')],2:[A('row_bi_o'),A('row_bi_towel'),A('superman_row')],3:[A('row_bi_o'),A('row_bi_towel'),A('superman_row')],4:[A('row_uni_close'),A('row_bi_o'),A('row_bi_towel')],5:[A('row_uni_close'),A('row_bi_o'),A('row_bi_towel')],6:[A('row_uni_open'),A('row_uni_close'),A('row_bi_o')],7:[A('row_uni_open'),A('row_uni_close'),A('row_bi_o')],8:[A('reverse_fly_uni'),A('row_uni_close'),A('row_bi_o')],9:[A('face_pull_towel'),A('row_uni_close'),A('row_bi_o')],10:[A('skier_pull_uni'),A('row_uni_close'),A('row_bi_o')]
+  },
+  J92_BI:{
+    1:[A('curl_bi_towel'),A('drag_curl_kb'),A('drag_curl_floor')],2:[A('curl_bi_towel'),A('drag_curl_kb'),A('drag_curl_floor')],3:[A('curl_bi_towel'),A('drag_curl_kb'),A('drag_curl_floor')],4:[A('curl_bi_towel'),A('drag_curl_kb'),A('drag_curl_floor')],5:[A('curl_row_uni'),A('curl_bi_towel'),A('drag_curl_floor')],6:[A('curl_row_uni'),A('curl_bi_towel'),A('drag_curl_kb')],7:[A('hammer_curl_momentum'),A('curl_row_uni'),A('drag_curl_kb')],8:[A('hammer_curl_momentum'),A('curl_row_uni'),A('curl_bi_towel')],9:[A('strict_curl_uni'),A('hammer_curl_momentum'),A('curl_bi_towel')],10:[A('strict_curl_uni'),A('hammer_curl_momentum'),A('curl_row_uni')]
+  },
+  J92_TRI:{
+    1:[A('chair_triceps'),A('cobra_knees'),A('wall_triceps')],2:[A('chair_triceps'),A('cobra_knees'),A('wall_triceps')],3:[A('cobra_pushup'),A('cobra_knees'),A('wall_triceps')],4:[A('cobra_pushup'),A('cobra_knees'),A('wall_triceps')],5:[A('cobra_pushup'),A('chair_triceps'),A('cobra_knees')],6:[A('tiger_knees'),A('chair_triceps'),A('cobra_knees')],7:[A('tiger_knees'),A('cobra_pushup'),A('chair_triceps')],8:[A('tiger_pushup'),A('tiger_knees'),A('chair_triceps')],9:[A('tiger_pushup'),A('tiger_knees'),A('cobra_pushup')],10:[A('tiger_pushup'),A('tiger_knees'),A('cobra_pushup')]
+  },
+  J93_QUAD:{
+    1:[A('sissy_partial'),A('sissy_assisted'),A('wall_sit')],2:[A('sissy_partial'),A('sissy_assisted'),A('wall_sit')],3:[A('sissy_partial'),A('sissy_assisted'),A('wall_sit')],4:[A('sissy_partial'),A('sissy_assisted'),A('wall_sit')],5:[A('sissy_full'),A('sissy_assisted'),A('wall_sit')],6:[A('sissy_full'),A('sissy_partial'),A('sissy_assisted')],7:[A('sissy_full'),A('sissy_partial'),A('sissy_assisted')],8:[A('sissy_full'),A('sissy_partial'),A('sissy_assisted')],9:[A('sissy_kb'),A('sissy_full'),A('sissy_partial')],10:[A('sissy_kb'),A('sissy_full'),A('sissy_partial')]
+  },
+  J93_HAM:{
+    1:[A('sliding_leg_curl'),A('hip_bridge_chair_kb'),A('hip_bridge_chair')],2:[A('sliding_leg_curl'),A('hip_bridge_chair_kb'),A('hip_bridge_chair')],3:[A('sliding_leg_curl'),A('hip_bridge_chair_kb'),A('hip_bridge_chair')],4:[A('sliding_leg_curl'),A('hip_bridge_chair_kb'),A('hip_bridge_chair')],5:[A('sliding_leg_curl_kb'),A('sliding_leg_curl'),A('hip_bridge_chair_kb')],6:[A('sliding_leg_curl_kb'),A('sliding_leg_curl'),A('hip_bridge_chair_kb')],7:[A('sliding_leg_curl_kb'),A('sliding_leg_curl'),A('hip_bridge_chair_kb')],8:[A('sliding_leg_curl_kb'),A('sliding_leg_curl'),A('hip_bridge_chair_kb')],9:[A('sliding_leg_curl_uni'),A('sliding_leg_curl_kb'),A('sliding_leg_curl')],10:[A('sliding_leg_curl_uni'),A('sliding_leg_curl_kb'),A('sliding_leg_curl')]
+  },
+  J94_PUSH:{
+    1:[assist(70),A('knee_push_partial'),A('pushup_table')],2:[assist(60),A('knee_hand_release'),A('knee_push_partial')],3:[assist(50),A('knee_shoulder_taps'),A('knee_hand_release')],4:[assist(40),A('knee_push_partial'),A('knee_hand_release')],5:[assist(30),A('hand_release_pushup'),A('knee_hand_release')],6:[assist(20),A('pushup_shoulder_taps'),A('hand_release_pushup')],7:[A('dips'),assist(70),A('hand_release_pushup')],8:[A('dips'),assist(40),A('pushup')],9:[A('dips'),assist(20),A('offset_pushup')],10:[A('dips'),A('explosive_pushup'),A('pushup')]
+  }
+};
