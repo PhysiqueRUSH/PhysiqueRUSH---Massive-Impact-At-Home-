@@ -1,0 +1,78 @@
+/* PhysiqueRUSH v2.5 — correctif netteté + cadrage du personnage accueil */
+
+/*
+ * Le personnage v2.4 était affiché à plus de 200% et recentré trop bas,
+ * ce qui provoquait pixellisation et disparition de la capuche.
+ * v2.5 utilise un asset plus défini et un cadrage top-safe.
+ */
+.shell:has(.logo-mini) .hero-panel{
+  min-height:184px;
+}
+
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder{
+  height:176px;
+  min-height:176px;
+  align-self:stretch;
+  overflow:visible;
+  isolation:isolate;
+}
+
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder::before{
+  content:"";
+  position:absolute;
+  z-index:2;
+  inset:0 -10px -16px -8px;
+  background-image:url('../assets/characters/home-athlete-v25.png');
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:auto 154%;
+  opacity:1;
+  transform:none;
+  filter:drop-shadow(0 15px 25px rgba(0,0,0,.82)) drop-shadow(0 0 15px rgba(236,22,33,.18));
+  pointer-events:none;
+  image-rendering:auto;
+}
+
+.shell:has(.logo-mini) .hero-panel>.visual-placeholder::after{
+  left:-30%;
+  right:-35%;
+  bottom:-18%;
+  height:66%;
+}
+
+/* La zone texte reste prioritaire sur le visuel. */
+.shell:has(.logo-mini) .hero-copy{
+  position:relative;
+  z-index:4;
+}
+
+@media(max-width:390px){
+  .shell:has(.logo-mini) .hero-panel{
+    min-height:176px;
+    grid-template-columns:1.2fr .8fr;
+  }
+  .shell:has(.logo-mini) .hero-panel>.visual-placeholder{
+    height:168px;
+    min-height:168px;
+  }
+  .shell:has(.logo-mini) .hero-panel>.visual-placeholder::before{
+    inset:0 -8px -14px -5px;
+    background-position:center top;
+    background-size:auto 150%;
+  }
+}
+
+@media(min-width:700px){
+  .shell:has(.logo-mini) .hero-panel{
+    min-height:202px;
+  }
+  .shell:has(.logo-mini) .hero-panel>.visual-placeholder{
+    height:194px;
+    min-height:194px;
+  }
+  .shell:has(.logo-mini) .hero-panel>.visual-placeholder::before{
+    inset:0 -18px -20px -12px;
+    background-position:center top;
+    background-size:auto 158%;
+  }
+}
