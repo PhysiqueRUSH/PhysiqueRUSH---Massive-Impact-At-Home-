@@ -1,5 +1,6 @@
 export const CONFIG = {
   appName:'PhysiqueRUSH – Massive Impact',
+  version:'2.3',
   facebookUrl:'', // À remplacer par l'URL du groupe Facebook 7j/7.
   onboardingVideos:[
     {id:'welcome',title:'Bienvenue dans Massive Impact',duration:'≈ 1 min',impact:'100 jours. 15 minutes. Ton impact commence ici.',vimeoId:''},
