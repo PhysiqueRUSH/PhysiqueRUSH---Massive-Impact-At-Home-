@@ -1,0 +1,1459 @@
+[
+  {
+    "day": 1,
+    "type": "onboarding",
+    "phase": "Démarrage",
+    "week": 0,
+    "title": "ENTRÉE DANS LE CAMP",
+    "session": "JOUR 1",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 2,
+    "type": "test",
+    "phase": "Tests initiaux",
+    "week": 0,
+    "title": "TEST LEGS",
+    "session": "TEST LEGS",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "legs",
+    "challenge": ""
+  },
+  {
+    "day": 3,
+    "type": "test",
+    "phase": "Tests initiaux",
+    "week": 0,
+    "title": "TEST PUSH",
+    "session": "TEST PUSH",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "push",
+    "challenge": ""
+  },
+  {
+    "day": 4,
+    "type": "test",
+    "phase": "Tests initiaux",
+    "week": 0,
+    "title": "TEST PULL",
+    "session": "TEST PULL",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "pull",
+    "challenge": ""
+  },
+  {
+    "day": 5,
+    "type": "test",
+    "phase": "Tests initiaux",
+    "week": 0,
+    "title": "TEST CORE",
+    "session": "TEST CORE",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "core",
+    "challenge": ""
+  },
+  {
+    "day": 6,
+    "type": "test",
+    "phase": "Tests initiaux",
+    "week": 0,
+    "title": "TEST CARDIO",
+    "session": "TEST CARDIO",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "cardio",
+    "challenge": ""
+  },
+  {
+    "day": 7,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 1,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Squat · ÉCHEC · BASE"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 8,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 1,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Pompes · ÉCHEC · BASE"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 9,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 1,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · ÉCHEC · BASE"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 10,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 1,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · 2 séries / muscle"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 11,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 1,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · 2 séries / muscle"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 12,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 1,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH — Dips · ÉCHEC · BASE",
+      "PULL · ÉCHEC · BASE"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 13,
+    "type": "challenge",
+    "phase": "Phase I",
+    "week": 1,
+    "title": "CHALLENGE DAY — BURN & RUSH",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "burn-rush"
+  },
+  {
+    "day": 14,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 2,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Chaîne postérieure · ÉCHEC · VOLUME"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 15,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 2,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Angles · ÉCHEC · VOLUME"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 16,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 2,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · ÉCHEC · VOLUME"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 17,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 2,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · 3 séries / muscle"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 18,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 2,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · 3 séries / muscle"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 19,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 2,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH — Épaules · ÉCHEC · VOLUME",
+      "PULL · ÉCHEC · VOLUME"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 20,
+    "type": "challenge",
+    "phase": "Phase I",
+    "week": 2,
+    "title": "CHALLENGE DAY — LEVELS",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "levels"
+  },
+  {
+    "day": 21,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 3,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Fentes / explosivité · ÉCHEC · DENSITÉ"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 22,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 3,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Press KB · ÉCHEC · DENSITÉ"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 23,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 3,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · ÉCHEC · DENSITÉ"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 24,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 3,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · 2 supersets antagonistes"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 25,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 3,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · 2 supersets antagonistes"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 26,
+    "type": "regular",
+    "phase": "Phase I",
+    "week": 3,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH / PULL · 3 supersets antagonistes"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 27,
+    "type": "challenge",
+    "phase": "Phase I",
+    "week": 3,
+    "title": "CHALLENGE DAY — ASCENSION",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "ascension"
+  },
+  {
+    "day": 28,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 1,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Squat · HOLD · 2 s isométrie"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 29,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 1,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Pompes · HOLD · 2 s isométrie"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 30,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 1,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · HOLD · 2 s isométrie"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 31,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 1,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · HOLD · 3 séries / muscle"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 32,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 1,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · HOLD · 3 séries / muscle"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 33,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 1,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH — Dips · HOLD · 2 s isométrie",
+      "PULL · HOLD · 2 s isométrie"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 34,
+    "type": "challenge",
+    "phase": "Phase II",
+    "week": 1,
+    "title": "CHALLENGE DAY — BURN & RUSH",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "burn-rush"
+  },
+  {
+    "day": 35,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 2,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Chaîne postérieure · SLOW · 4 s excentrique"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 36,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 2,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Angles · SLOW · 4 s excentrique"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 37,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 2,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · SLOW · 4 s excentrique"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 38,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 2,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · SLOW · 4 séries / muscle"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 39,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 2,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · SLOW · 4 séries / muscle"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 40,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 2,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH — Épaules · SLOW · 4 s excentrique",
+      "PULL · SLOW · 4 s excentrique"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 41,
+    "type": "challenge",
+    "phase": "Phase II",
+    "week": 2,
+    "title": "CHALLENGE DAY — LEVELS",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "levels"
+  },
+  {
+    "day": 42,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 3,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Fentes / explosivité · DRIVE · intention concentrique maximale"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 43,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 3,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Press KB · DRIVE · intention concentrique maximale"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 44,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 3,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · DRIVE · intention concentrique maximale"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 45,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 3,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · DRIVE · 3 supersets antagonistes"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 46,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 3,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · DRIVE · 3 supersets antagonistes"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 47,
+    "type": "regular",
+    "phase": "Phase II",
+    "week": 3,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH / PULL · 4 supersets antagonistes"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 48,
+    "type": "challenge",
+    "phase": "Phase II",
+    "week": 3,
+    "title": "CHALLENGE DAY — ASCENSION",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "ascension"
+  },
+  {
+    "day": 49,
+    "type": "test",
+    "phase": "Tests intermédiaires",
+    "week": 0,
+    "title": "RETEST LEGS",
+    "session": "RETEST LEGS",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "legs",
+    "challenge": ""
+  },
+  {
+    "day": 50,
+    "type": "test",
+    "phase": "Tests intermédiaires",
+    "week": 0,
+    "title": "RETEST PUSH",
+    "session": "RETEST PUSH",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "push",
+    "challenge": ""
+  },
+  {
+    "day": 51,
+    "type": "test",
+    "phase": "Tests intermédiaires",
+    "week": 0,
+    "title": "RETEST PULL",
+    "session": "RETEST PULL",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "pull",
+    "challenge": ""
+  },
+  {
+    "day": 52,
+    "type": "test",
+    "phase": "Tests intermédiaires",
+    "week": 0,
+    "title": "RETEST CORE",
+    "session": "RETEST CORE",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "core",
+    "challenge": ""
+  },
+  {
+    "day": 53,
+    "type": "test",
+    "phase": "Tests intermédiaires",
+    "week": 0,
+    "title": "RETEST CARDIO",
+    "session": "RETEST CARDIO",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "cardio",
+    "challenge": ""
+  },
+  {
+    "day": 54,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 1,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Squat · REST-PAUSE · 1 + 5"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 55,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 1,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Pompes · REST-PAUSE · 1 + 5"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 56,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 1,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · REST-PAUSE · 1 + 5"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 57,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 1,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · REST-PAUSE · 1 + 4 / muscle"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 58,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 1,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · REST-PAUSE · 1 + 4 / muscle"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 59,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 1,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH — Dips · REST-PAUSE · 1 + 5",
+      "PULL · REST-PAUSE · 1 + 5"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 60,
+    "type": "challenge",
+    "phase": "Phase III",
+    "week": 1,
+    "title": "CHALLENGE DAY — BURN & RUSH",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "burn-rush"
+  },
+  {
+    "day": 61,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 2,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Chaîne postérieure · REST-PAUSE · 1 + 7"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 62,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 2,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Angles · REST-PAUSE · 1 + 7"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 63,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 2,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · REST-PAUSE · 1 + 7"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 64,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 2,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · REST-PAUSE · 1 + 5 / muscle"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 65,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 2,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · REST-PAUSE · 1 + 5 / muscle"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 66,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 2,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH — Épaules · REST-PAUSE · 1 + 7",
+      "PULL · REST-PAUSE · 1 + 7"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 67,
+    "type": "challenge",
+    "phase": "Phase III",
+    "week": 2,
+    "title": "CHALLENGE DAY — LEVELS",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "levels"
+  },
+  {
+    "day": 68,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 3,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Fentes / explosivité · REST-PAUSE DENSITÉ · niveau -1"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 69,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 3,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Press KB · REST-PAUSE DENSITÉ · niveau -1"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 70,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 3,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · REST-PAUSE DENSITÉ · niveau -1"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 71,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 3,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · REST-PAUSE RELAY · niveau -1"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 72,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 3,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · REST-PAUSE RELAY · niveau -1"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 73,
+    "type": "regular",
+    "phase": "Phase III",
+    "week": 3,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH / PULL · REST-PAUSE RELAY · 1 + 5"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 74,
+    "type": "challenge",
+    "phase": "Phase III",
+    "week": 3,
+    "title": "CHALLENGE DAY — ASCENSION",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "ascension"
+  },
+  {
+    "day": 75,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 1,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Squat · DOUBLE DROP ×2",
+      "LEGS — Chaîne postérieure · DOUBLE DROP ×2"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 76,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 1,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Pompes · DOUBLE DROP ×2",
+      "PUSH — Angles · DOUBLE DROP ×2"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 77,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 1,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · DOUBLE DROP ×4"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 78,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 1,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · DOUBLE DROP · 3 rounds"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 79,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 1,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · DOUBLE DROP · 3 rounds"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 80,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 1,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH — Dips · DOUBLE DROP ×4",
+      "PULL · DOUBLE DROP ×4"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 81,
+    "type": "challenge",
+    "phase": "Phase IV",
+    "week": 1,
+    "title": "CHALLENGE DAY — BURN & RUSH",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "burn-rush"
+  },
+  {
+    "day": 82,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 2,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Chaîne postérieure · DOUBLE DROP ×3",
+      "LEGS — Fentes / explosivité · DOUBLE DROP ×3"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 83,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 2,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Angles · DOUBLE DROP ×3",
+      "PUSH — Press KB · DOUBLE DROP ×3"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 84,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 2,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · DOUBLE DROP ×5"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 85,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 2,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · DOUBLE DROP · 4 rounds"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 86,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 2,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · DOUBLE DROP · 4 rounds"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 87,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 2,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH / PULL · DOUBLE DROP · 5 rounds"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 88,
+    "type": "challenge",
+    "phase": "Phase IV",
+    "week": 2,
+    "title": "CHALLENGE DAY — LEVELS",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "levels"
+  },
+  {
+    "day": 89,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 3,
+    "title": "LEGS + CORE",
+    "session": "LEGS + CORE",
+    "blocks": [
+      "LEGS — Squat · TRIPLE DROP ×2",
+      "LEGS — Fentes / explosivité · TRIPLE DROP ×2"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 90,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 3,
+    "title": "PUSH + CARDIO",
+    "session": "PUSH + CARDIO",
+    "blocks": [
+      "PUSH — Pompes · TRIPLE DROP ×2",
+      "PUSH — Press KB · TRIPLE DROP ×2"
+    ],
+    "secondary": "cardio",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 91,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 3,
+    "title": "PULL + CORE",
+    "session": "PULL + CORE",
+    "blocks": [
+      "PULL · TRIPLE DROP ×3"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 92,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 3,
+    "title": "ARMS + CARDIO",
+    "session": "ARMS + CARDIO",
+    "blocks": [
+      "ARMS · TRIPLE DROP · 2 rounds"
+    ],
+    "secondary": "cardio + KB",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 93,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 3,
+    "title": "QUADRICEPS + ISCHIOS + CORE",
+    "session": "QUADRICEPS + ISCHIOS + CORE",
+    "blocks": [
+      "QUADRICEPS / ISCHIOS · TRIPLE DROP · 2 rounds"
+    ],
+    "secondary": "core",
+    "full15": false,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 94,
+    "type": "regular",
+    "phase": "Phase IV",
+    "week": 3,
+    "title": "PUSH + PULL",
+    "session": "PUSH + PULL",
+    "blocks": [
+      "PUSH / PULL · TRIPLE DROP · 3 rounds"
+    ],
+    "secondary": "",
+    "full15": true,
+    "test": "",
+    "challenge": ""
+  },
+  {
+    "day": 95,
+    "type": "challenge",
+    "phase": "Phase IV",
+    "week": 3,
+    "title": "CHALLENGE DAY — ASCENSION",
+    "session": "CHALLENGE DAY",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "",
+    "challenge": "ascension"
+  },
+  {
+    "day": 96,
+    "type": "test",
+    "phase": "Tests finaux",
+    "week": 0,
+    "title": "TEST FINAL LEGS",
+    "session": "TEST FINAL LEGS",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "legs",
+    "challenge": ""
+  },
+  {
+    "day": 97,
+    "type": "test",
+    "phase": "Tests finaux",
+    "week": 0,
+    "title": "TEST FINAL PUSH",
+    "session": "TEST FINAL PUSH",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "push",
+    "challenge": ""
+  },
+  {
+    "day": 98,
+    "type": "test",
+    "phase": "Tests finaux",
+    "week": 0,
+    "title": "TEST FINAL PULL",
+    "session": "TEST FINAL PULL",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "pull",
+    "challenge": ""
+  },
+  {
+    "day": 99,
+    "type": "test",
+    "phase": "Tests finaux",
+    "week": 0,
+    "title": "TEST FINAL CORE",
+    "session": "TEST FINAL CORE",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "core",
+    "challenge": ""
+  },
+  {
+    "day": 100,
+    "type": "test",
+    "phase": "Tests finaux",
+    "week": 0,
+    "title": "TEST FINAL CARDIO",
+    "session": "TEST FINAL CARDIO",
+    "blocks": [],
+    "secondary": "",
+    "full15": false,
+    "test": "cardio",
+    "challenge": ""
+  }
+]

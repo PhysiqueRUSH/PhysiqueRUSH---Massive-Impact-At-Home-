@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "generatedAt": "2026-08-18T15:38:10.737Z",
+  "counts": {
+    "onboarding": 1,
+    "test": 15,
+    "regular": 72,
+    "challenge": 12
+  },
+  "exerciseCount": 171,
+  "familyCount": 18,
+  "dropTables": 12,
+  "tripleTables": 10,
+  "regularPlansAudited": 720,
+  "maxEvents": {
+    "day": 66,
+    "palier": 8,
+    "count": 32
+  },
+  "uiActionsAudited": 43,
+  "requiredFilesAudited": 10,
+  "warnings": [],
+  "errors": []
+}

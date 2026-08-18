@@ -1,0 +1,13 @@
+{
+  "name": "physiquerush-massive-impact",
+  "private": true,
+  "version": "2.1.0",
+  "type": "module",
+  "scripts": {
+    "audit": "node ./scripts/audit.mjs",
+    "test": "node ./scripts/tests.mjs",
+    "verify": "npm run test && npm run audit",
+    "serve": "python3 -m http.server 8080",
+    "export-spec": "node ./scripts/export-spec.mjs"
+  }
+}
