@@ -1,6 +1,6 @@
-const CACHE='physiquerush-mi-v6-impact-theme';
+const CACHE='physiquerush-mi-v7-version-footer';
 const APP_SHELL=[
-  './','./index.html','./css/app.css','./css/impact-theme.css','./manifest.webmanifest',
+  './','./index.html','./css/app.css','./css/impact-theme.css','./css/home-footer.css','./manifest.webmanifest',
   './js/app.js','./js/config.js','./js/state.js','./js/scoring.js','./js/sessionStore.js',
   './js/data/exercises.js','./js/data/core.js','./js/data/cardio.js','./js/data/tests.js','./js/data/challenges.js','./js/data/drops.js','./js/data/program.js',
   './js/engine/workout.js','./js/engine/timer.js','./js/ui/components.js','./js/ui/screens.js',
