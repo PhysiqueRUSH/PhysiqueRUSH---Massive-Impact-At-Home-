@@ -1,37 +1,19 @@
-/* PhysiqueRUSH v2.8 — personnage d’accueil rendu hors des encadrés */
+/* PhysiqueRUSH v2.9 — personnage d’accueil ancré au hero, visible sur toute la hauteur */
 
 /*
- * Le personnage est désormais porté par la coque de l’accueil elle-même,
- * et non par le placeholder du hero. Cela évite qu’il soit masqué par les
- * encadrés tout en conservant l’effet de la maquette : tête au niveau du
- * parcours, corps à droite et kettlebell jusqu’au bas de la carte du jour.
+ * Correctif Android/PWA : le personnage n'est plus porté par un pseudo-élément
+ * de la coque .shell. Il est maintenant dessiné par le hero lui-même puis
+ * déborde vers la carte Aujourd'hui. La carte du jour passe devant lui à gauche,
+ * tandis que sa silhouette et la kettlebell restent visibles à droite.
  */
 .shell:has(.logo-mini){
   position:relative;
-  isolation:isolate;
 }
 
+/* Désactive complètement l'ancien personnage porté par la coque. */
 .shell:has(.logo-mini)::after{
-  content:"";
-  position:absolute;
-  z-index:4;
-  top:132px;
-  right:0;
-  width:48%;
-  height:585px;
-  background-image:url('../assets/characters/home-athlete-v26.jpg');
-  background-repeat:no-repeat;
-  background-position:right top;
-  background-size:contain;
-  pointer-events:none;
-  mix-blend-mode:screen;
-  opacity:.98;
-  filter:contrast(1.06) saturate(1.06) drop-shadow(0 20px 34px rgba(0,0,0,.72)) drop-shadow(0 0 18px rgba(236,22,33,.22));
-}
-
-.shell:has(.logo-mini) .app-header{
-  position:relative;
-  z-index:10;
+  content:none !important;
+  display:none !important;
 }
 
 .shell:has(.logo-mini) .hero-panel{
@@ -39,13 +21,38 @@
   z-index:2;
   min-height:174px;
   grid-template-columns:1fr;
-  padding:18px 42% 16px 17px;
+  padding:18px 41% 16px 17px;
   overflow:visible;
+}
+
+/* Personnage réel visuellement : tête dans le parcours, corps jusqu'au bas de Aujourd'hui. */
+.shell:has(.logo-mini) .hero-panel::before{
+  content:"";
+  position:absolute;
+  z-index:4;
+  top:-18px;
+  right:-18px;
+  width:56%;
+  height:390px;
+  background-image:url('../assets/characters/home-athlete-v26.jpg');
+  background-repeat:no-repeat;
+  background-position:right top;
+  background-size:auto 100%;
+  mix-blend-mode:screen;
+  opacity:1;
+  filter:contrast(1.06) saturate(1.08) drop-shadow(0 20px 34px rgba(0,0,0,.74)) drop-shadow(0 0 20px rgba(236,22,33,.24));
+  pointer-events:none;
+  image-rendering:auto;
+}
+
+/* Conserve le filet rouge supérieur au-dessus du personnage. */
+.shell:has(.logo-mini) .hero-panel::after{
+  z-index:8;
 }
 
 .shell:has(.logo-mini) .hero-copy{
   position:relative;
-  z-index:8;
+  z-index:7;
   width:100%;
 }
 
@@ -53,12 +60,12 @@
   width:100%;
 }
 
-/* Le placeholder d’origine n’est plus nécessaire : il causait le masque. */
+/* Le placeholder historique du hero n'est plus utilisé et ne doit plus réserver d'espace. */
 .shell:has(.logo-mini) .hero-panel>.visual-placeholder{
   display:none !important;
 }
 
-/* Carte du jour plus compacte, alignée à gauche, devant le personnage. */
+/* Carte Aujourd'hui alignée à gauche, devant le personnage, comme sur la maquette. */
 .shell:has(.logo-mini) .today-card{
   position:relative;
   z-index:6;
@@ -86,26 +93,26 @@
 
 .shell:has(.logo-mini) .menu-grid{
   position:relative;
-  z-index:7;
+  z-index:9;
   margin-top:9px;
 }
 
 @media(max-width:420px){
-  .shell:has(.logo-mini)::after{
-    top:126px;
-    right:-3px;
-    width:49%;
-    height:555px;
-  }
-
   .shell:has(.logo-mini) .hero-panel{
     min-height:168px;
     padding-right:40%;
   }
 
+  .shell:has(.logo-mini) .hero-panel::before{
+    top:-13px;
+    right:-16px;
+    width:57%;
+    height:365px;
+  }
+
   .shell:has(.logo-mini) .today-card{
-    width:77%;
-    grid-template-columns:minmax(0,1fr) 64px;
+    width:78%;
+    grid-template-columns:minmax(0,1fr) 66px;
     min-height:180px;
     padding-left:14px;
   }
@@ -121,36 +128,36 @@
 }
 
 @media(max-width:365px){
-  .shell:has(.logo-mini)::after{
-    top:124px;
-    width:50%;
-    height:520px;
-  }
-
   .shell:has(.logo-mini) .hero-panel{
     padding-right:38%;
   }
 
+  .shell:has(.logo-mini) .hero-panel::before{
+    right:-12px;
+    width:58%;
+    height:348px;
+  }
+
   .shell:has(.logo-mini) .today-card{
-    width:79%;
+    width:80%;
   }
 }
 
 @media(min-width:700px){
-  .shell:has(.logo-mini)::after{
-    top:142px;
-    right:2px;
-    width:45%;
-    height:650px;
-  }
-
   .shell:has(.logo-mini) .hero-panel{
     min-height:194px;
     padding-right:43%;
   }
 
+  .shell:has(.logo-mini) .hero-panel::before{
+    top:-24px;
+    right:-24px;
+    width:53%;
+    height:440px;
+  }
+
   .shell:has(.logo-mini) .today-card{
-    width:74%;
+    width:75%;
     min-height:198px;
   }
 }
