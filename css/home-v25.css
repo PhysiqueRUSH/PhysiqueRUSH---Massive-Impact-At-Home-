@@ -1,9 +1,8 @@
-/* PhysiqueRUSH v2.5 — correctif netteté + cadrage du personnage accueil */
+/* PhysiqueRUSH v2.6 — nouveau personnage officiel accueil + kettlebell rouge */
 
 /*
- * Le personnage v2.4 était affiché à plus de 200% et recentré trop bas,
- * ce qui provoquait pixellisation et disparition de la capuche.
- * v2.5 utilise un asset plus défini et un cadrage top-safe.
+ * La v2.6 conserve le cadrage validé de la v2.5 et remplace uniquement
+ * le personnage d’accueil par la nouvelle version avec kettlebell rouge.
  */
 .shell:has(.logo-mini) .hero-panel{
   min-height:184px;
@@ -22,7 +21,7 @@
   position:absolute;
   z-index:2;
   inset:0 -10px -16px -8px;
-  background-image:url('../assets/characters/home-athlete-v25.png');
+  background-image:url('../assets/characters/home-athlete-v26.jpg');
   background-repeat:no-repeat;
   background-position:center top;
   background-size:auto 154%;
