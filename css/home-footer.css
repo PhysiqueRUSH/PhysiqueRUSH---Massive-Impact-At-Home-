@@ -3,19 +3,19 @@
   display:block;
   width:100%;
   box-sizing:border-box;
-  margin-top:-10px;
-  padding:0 0 max(7px,env(safe-area-inset-bottom));
+  margin-top:-4px;
+  padding:7px 0 max(9px,env(safe-area-inset-bottom));
   text-align:center;
-  color:#474c54;
+  color:#666c75;
   font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
-  font-size:6px;
+  font-size:8px;
   font-weight:700;
   letter-spacing:.08em;
-  line-height:1;
+  line-height:1.1;
   user-select:none;
   pointer-events:none;
 }
 
 @media(max-width:420px){
-  #app:has(.menu-grid)::after{font-size:5.5px}
+  #app:has(.menu-grid)::after{font-size:7.5px}
 }
