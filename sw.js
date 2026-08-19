@@ -1,6 +1,6 @@
-const CACHE='physiquerush-mi-v12-home-athlete-v26';
+const CACHE='physiquerush-mi-v13-home-layout-v27';
 const APP_SHELL=[
-  './','./index.html','./css/app.css','./css/impact-theme.css','./css/home-v23.css','./css/home-v24.css','./css/home-v25.css','./css/home-footer.css','./manifest.webmanifest',
+  './','./index.html','./css/app.css','./css/impact-theme.css','./css/home-v23.css','./css/home-v24.css','./css/home-v25.css','./css/home-v27.css','./css/home-footer.css','./manifest.webmanifest',
   './js/app.js','./js/config.js','./js/state.js','./js/scoring.js','./js/sessionStore.js',
   './js/data/exercises.js','./js/data/core.js','./js/data/cardio.js','./js/data/tests.js','./js/data/challenges.js','./js/data/drops.js','./js/data/program.js',
   './js/engine/workout.js','./js/engine/timer.js','./js/ui/components.js','./js/ui/screens.js',
